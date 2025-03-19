@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engine Simulator</title>
     <style>
-        *{
-            user-select: none;
-        }
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -18,6 +15,10 @@
             background-color: #1e1e1e;
             color: white;
             margin: 0;
+            user-select: none;
+            -webkit-user-select: none; /* Per browser WebKit come Safari e Chrome */
+            -moz-user-select: none; /* Per Firefox */
+            -ms-user-select: none; /* Per Internet Explorer/Edge */
         }
         .controls {
             display: flex;
